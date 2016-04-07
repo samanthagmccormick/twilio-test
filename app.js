@@ -23,8 +23,7 @@ app.get('/', function(req, res) {
 app.get('/twilio', function(req, res) {
   res.render('twiliotest');
   // send an SMS message
-  // twilioNotifications.sayHi();
-  twilioNotifications.hiChris();
+  twilioNotifications.sayHi();
 });
 
 var server = app.listen(7000, function() {

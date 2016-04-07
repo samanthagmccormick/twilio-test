@@ -18,15 +18,16 @@ exports.sayHi = function(req, res) {
 
 };
 
-exports.hiChris = function(req, res) {
-  console.log('hiChris()');
+// Can't use this right now because his # is unverified
+// exports.hiChris = function(req, res) {
+//   console.log('hiChris()');
   
-  // Loop through the admins to find Chris
-  admins.forEach(function(admin) {
-    if (admin.name === 'Chris Cell') {
-      console.log('found Chris');
-      // Use twilioClient to send an SMS message to the admin's phone number
-      twilioClient.sendSms(admin.phoneNumber, 'hi Chris, when will you be home? Teehee love Sam');
-    }
-  });
-};
+//   // Loop through the admins to find Chris
+//   admins.forEach(function(admin) {
+//     if (admin.name === 'Chris Cell') {
+//       console.log('found Chris');
+//       // Use twilioClient to send an SMS message to the admin's phone number
+//       twilioClient.sendSms(admin.phoneNumber, 'hi Chris, when will you be home? Teehee love Sam');
+//     }
+//   });
+// };

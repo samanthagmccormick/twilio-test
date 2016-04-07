@@ -14,5 +14,5 @@
 - Add new notification methods to twilioNotifications.js
 - Call these methods in app.js
 
-## Link to tutorial used
+### Link to tutorial
 - https://www.twilio.com/docs/tutorials/walkthrough/server-notifications/node/express
