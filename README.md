@@ -1,10 +1,10 @@
-#### Twilio Test with Node.js and Express
+## Twilio Test with Node.js and Express
 
 ### To install dependencies
-- npm install
+[code] npm install [/code]
 
 ### To run
-nodemon app.js
+[code] nodemon app.js [/code]
 
 ### How to use
 - config.js is where the Twilio tokens are kept, I set the tokens as env variables in my ~./bash-profile

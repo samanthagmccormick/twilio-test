@@ -27,7 +27,6 @@ app.get('/twilio', function(req, res) {
   twilioNotifications.hiChris();
 });
 
-
 var server = app.listen(7000, function() {
 	console.log('Express server listening on port ' + server.address().port);
 });
