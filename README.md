@@ -1,5 +1,7 @@
 ## Twilio Test with Node.js and Express
 
+### This app uses the Twilio REST API to send SMS messages to my cell.
+
 ### To install dependencies
 [code] npm install [/code]
 
